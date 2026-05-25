@@ -1,0 +1,24 @@
+{
+  "domain": "criminal_law",
+  "module": "memo_generator",
+  "description": "توليد المذكرات الجنائية اعتمادًا على تحليل القضية والقواعد القانونية.",
+  "inputs": [
+    "وقائع القضية",
+    "تحليل الأدلة",
+    "الدفوع الشكلية",
+    "الدفوع الموضوعية",
+    "أوجه البطلان",
+    "أسباب الطعن إن وجدت"
+  ],
+  "outputs": [
+    "مذكرة دفاع جنائية كاملة",
+    "صياغة منظمة للدفوع والأسباب والطلبات"
+  ],
+  "dependencies": [
+    "case_analysis",
+    "analysis_rules",
+    "procedural_rules",
+    "nullity_rules",
+    "judgment_analysis"
+  ]
+}
