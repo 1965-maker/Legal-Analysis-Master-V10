@@ -1,0 +1,27 @@
+{
+  "engines": {
+    "criminal_law": {},
+    "civil_law": {},
+    "personal_status": {},
+    "tax_law": {},
+    "commercial_law": {},
+    "companies_law": {},
+    "labor_law": {},
+    "social_insurance_law": {},
+    "economic_law": {},
+    "contracts": {},
+    "pleadings": {},
+    "risk": {},
+    "defense": {},
+    "judicial_memory": {},
+    "judgment_analysis": {},
+    "client_interview": {}
+  },
+  "contexts": {
+    "criminal_case": ["criminal_law", "risk", "defense", "judicial_memory"],
+    "civil_case": ["civil_law", "risk", "defense", "judicial_memory"],
+    "personal_status_case": ["personal_status", "contracts", "pleadings", "risk", "defense", "judicial_memory"],
+    "tax_case": ["tax_law", "risk", "defense", "judicial_memory"],
+    "economic_case": ["economic_law", "risk", "defense", "judicial_memory"]
+  }
+}
