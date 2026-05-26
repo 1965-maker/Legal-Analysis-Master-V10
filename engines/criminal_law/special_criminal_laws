@@ -1,50 +1,116 @@
 {
+  "version": "1.0.0",
+  "generated_at": "2026-05-26T00:00:00Z",
   "special_criminal_laws": [
     {
       "id": "drugs_law_182_1960",
       "name_ar": "قانون المخدرات",
-      "path": "engines/criminal_law/special_criminal_laws/drugs_law_182_1960.json"
+      "name_en": "Drugs Law No. 182 of 1960",
+      "path": "engines/criminal_law/special_criminal_laws/drugs_law_182_1960.json",
+      "effective_date": null,
+      "full_text": null,
+      "summary_ar": "قواعد وتشريعات مكافحة المخدرات وحيازة المواد المخدرة.",
+      "summary_en": "Regulations on narcotics control, possession, trafficking and penalties.",
+      "tags": ["narcotics", "possession", "trafficking"],
+      "notes": ""
     },
     {
       "id": "weapons_law_394_1954",
       "name_ar": "قانون الأسلحة والذخائر",
-      "path": "engines/criminal_law/special_criminal_laws/weapons_law_394_1954.json"
+      "name_en": "Weapons and Ammunition Law No. 394 of 1954",
+      "path": "engines/criminal_law/special_criminal_laws/weapons_law_394_1954.json",
+      "effective_date": null,
+      "full_text": null,
+      "summary_ar": "تنظيم حيازة وحمل الأسلحة والذخائر والعقوبات المترتبة.",
+      "summary_en": "Rules for possession, carrying and licensing of weapons and related penalties.",
+      "tags": ["weapons", "licensing", "public_safety"],
+      "notes": ""
     },
     {
       "id": "traffic_law_66_1973",
       "name_ar": "قانون المرور",
-      "path": "engines/criminal_law/special_criminal_laws/traffic_law_66_1973.json"
+      "name_en": "Traffic Law No. 66 of 1973",
+      "path": "engines/criminal_law/special_criminal_laws/traffic_law_66_1973.json",
+      "effective_date": null,
+      "full_text": null,
+      "summary_ar": "قواعد السير والمرور والعقوبات المتعلقة بالمخالفات المرورية.",
+      "summary_en": "Traffic rules, violations and penalties governing road safety.",
+      "tags": ["traffic", "fines", "safety"],
+      "notes": ""
     },
     {
       "id": "fraud_and_deception_law_48_1941",
       "name_ar": "قانون الغش والتدليس",
-      "path": "engines/criminal_law/special_criminal_laws/fraud_and_deception_law_48_1941.json"
+      "name_en": "Fraud and Deception Law No. 48 of 1941",
+      "path": "engines/criminal_law/special_criminal_laws/fraud_and_deception_law_48_1941.json",
+      "effective_date": null,
+      "full_text": null,
+      "summary_ar": "أحكام الجرائم المتعلقة بالغش والتدليس والاحتيال.",
+      "summary_en": "Provisions addressing fraud, deception and related criminal liability.",
+      "tags": ["fraud", "deception", "financial_crime"],
+      "notes": ""
     },
     {
       "id": "suspicion_law",
       "name_ar": "قانون الاشتباه",
-      "path": "engines/criminal_law/special_criminal_laws/suspicion_law.json"
+      "name_en": "Suspicion Law",
+      "path": "engines/criminal_law/special_criminal_laws/suspicion_law.json",
+      "effective_date": null,
+      "full_text": null,
+      "summary_ar": "أحكام تتعلق بإجراءات الاشتباه والاحتجاز المؤقت والضوابط القانونية.",
+      "summary_en": "Provisions related to suspicion procedures, temporary detention and legal safeguards.",
+      "tags": ["procedure", "detention", "rights"],
+      "notes": ""
     },
     {
       "id": "environment_law_4_1994",
       "name_ar": "قانون البيئة",
-      "path": "engines/criminal_law/special_criminal_laws/environment_law_4_1994.json"
+      "name_en": "Environment Law No. 4 of 1994",
+      "path": "engines/criminal_law/special_criminal_laws/environment_law_4_1994.json",
+      "effective_date": null,
+      "full_text": null,
+      "summary_ar": "تشريعات حماية البيئة والعقوبات على التلوث والإضرار بالموارد الطبيعية.",
+      "summary_en": "Environmental protection rules and penalties for pollution and resource damage.",
+      "tags": ["environment", "pollution", "sanctions"],
+      "notes": ""
     },
     {
       "id": "human_trafficking_law_64_2010",
       "name_ar": "قانون الاتجار بالبشر",
-      "path": "engines/criminal_law/special_criminal_laws/human_trafficking_law_64_2010.json"
+      "name_en": "Human Trafficking Law No. 64 of 2010",
+      "path": "engines/criminal_law/special_criminal_laws/human_trafficking_law_64_2010.json",
+      "effective_date": null,
+      "full_text": null,
+      "summary_ar": "أحكام منع الاتجار بالبشر وحماية الضحايا والعقوبات على المتورطين.",
+      "summary_en": "Measures to prevent human trafficking, victim protection and penalties for offenders.",
+      "tags": ["human_trafficking", "victim_protection", "organized_crime"],
+      "notes": ""
     },
     {
       "id": "juvenile_law_12_1996",
       "name_ar": "قانون الطفل",
-      "path": "engines/criminal_law/special_criminal_laws/juvenile_law_12_1996.json"
+      "name_en": "Juvenile Law No. 12 of 1996",
+      "path": "engines/criminal_law/special_criminal_laws/juvenile_law_12_1996.json",
+      "effective_date": null,
+      "full_text": null,
+      "summary_ar": "أحكام خاصة بالأطفال المتهمين أو المتضررين وإجراءات العدالة الخاصة بهم.",
+      "summary_en": "Special provisions for children in conflict with the law and child protection procedures.",
+      "tags": ["juvenile", "child_protection", "procedure"],
+      "notes": ""
     },
     {
       "id": "antiquities_law_117_1983",
       "name_ar": "قانون الآثار",
-      "path": "engines/criminal_law/special_criminal_laws/antiquities_law_117_1983.json"
+      "name_en": "Antiquities Law No. 117 of 1983",
+      "path": "engines/criminal_law/special_criminal_laws/antiquities_law_117_1983.json",
+      "effective_date": null,
+      "full_text": null,
+      "summary_ar": "تنظيم حماية الآثار ومكافحة النهب والاتجار غير المشروع بالممتلكات الأثرية.",
+      "summary_en": "Regulation for protection of antiquities and penalties for looting and illegal trade.",
+      "tags": ["antiquities", "heritage", "smuggling"],
+      "notes": ""
     }
   ]
 }
+
 
