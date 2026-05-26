@@ -1,0 +1,31 @@
+{
+  "scenario_id": "run_client_interview_scenario",
+  "description": "تشغيل أولي لمسار مقابلة العميل وربطها بالمحركات الموضوعية",
+  "entry_engine": {
+    "id": "client_interview_index",
+    "folder": "engines/client_interview"
+  },
+  "next_engines": [
+    {
+      "id": "criminal_law_index",
+      "folder": "engines/criminal_law",
+      "trigger": "if_case_is_criminal"
+    },
+    {
+      "id": "civil_law_index",
+      "folder": "engines/civil_law",
+      "trigger": "if_case_is_civil"
+    },
+    {
+      "id": "commercial_law_index",
+      "folder": "engines/commercial_law",
+      "trigger": "if_case_is_commercial"
+    },
+    {
+      "id": "economic_court_index",
+      "folder": "engines/economic_court",
+      "trigger": "if_case_is_economic"
+    }
+  ],
+  "status": "draft"
+}
