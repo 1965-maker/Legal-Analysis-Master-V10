@@ -1,29 +1,126 @@
 {
+  "version": "1.0",
+  "description": "MASTER V10 Orchestrator Config - Hybrid Legal Engine Architecture",
+
   "engines": {
     "criminal_law": {
       "index": "engines/criminal_law/criminal_law_index.json"
     },
-    "civil_law": {},
-    "personal_status": {},
-    "tax_law": {},
-    "commercial_law": {},
-    "companies_law": {},
-    "labor_law": {},
-    "social_insurance_law": {},
-    "economic_law": {},
-    "contracts": {},
-    "pleadings": {},
-    "risk": {},
-    "defense": {},
-    "judicial_memory": {},
-    "judgment_analysis": {},
-    "client_interview": {}
+    "civil_law": {
+      "index": "engines/civil_law/civil_law_index.json"
+    },
+    "personal_status": {
+      "index": "engines/personal_status/personal_status_index.json"
+    },
+    "tax_law": {
+      "index": "engines/tax_law/tax_law_index.json"
+    },
+    "commercial_law": {
+      "index": "engines/commercial_law/commercial_law_index.json"
+    },
+    "companies_law": {
+      "index": "engines/companies_law/companies_law_index.json"
+    },
+    "labor_law": {
+      "index": "engines/labor_law/labor_law_index.json"
+    },
+    "social_insurance_law": {
+      "index": "engines/social_insurance_law/social_insurance_law_index.json"
+    },
+    "economic_law": {
+      "index": "engines/economic_law/economic_law_index.json"
+    },
+
+    "contracts": {
+      "index": "engines/contracts/contracts_index.json"
+    },
+    "pleadings": {
+      "index": "engines/pleadings/pleadings_index.json"
+    },
+    "risk": {
+      "index": "engines/risk/risk_index.json"
+    },
+    "defense": {
+      "index": "engines/defense/defense_index.json"
+    },
+    "judicial_memory": {
+      "index": "engines/judicial_memory/judicial_memory_index.json"
+    },
+    "judgment_analysis": {
+      "index": "engines/judgment_analysis/judgment_analysis_index.json"
+    },
+    "client_interview": {
+      "index": "engines/client_interview/client_interview_index.json"
+    }
   },
+
   "contexts": {
-    "criminal_case": ["criminal_law", "risk", "defense", "judicial_memory"],
-    "civil_case": ["civil_law", "risk", "defense", "judicial_memory"],
-    "personal_status_case": ["personal_status", "contracts", "pleadings", "risk", "defense", "judicial_memory"],
-    "tax_case": ["tax_law", "risk", "defense", "judicial_memory"],
-    "economic_case": ["economic_law", "risk", "defense", "judicial_memory"]
+    "criminal_case": [
+      "criminal_law",
+      "risk",
+      "defense",
+      "judicial_memory",
+      "judgment_analysis",
+      "pleadings",
+      "client_interview"
+    ],
+    "civil_case": [
+      "civil_law",
+      "risk",
+      "defense",
+      "judicial_memory",
+      "judgment_analysis",
+      "pleadings",
+      "contracts",
+      "client_interview"
+    ],
+    "personal_status_case": [
+      "personal_status",
+      "risk",
+      "defense",
+      "judicial_memory",
+      "judgment_analysis",
+      "pleadings",
+      "client_interview"
+    ],
+    "tax_case": [
+      "tax_law",
+      "risk",
+      "defense",
+      "judicial_memory",
+      "judgment_analysis",
+      "pleadings",
+      "client_interview"
+    ],
+    "economic_case": [
+      "economic_law",
+      "risk",
+      "defense",
+      "judicial_memory",
+      "judgment_analysis",
+      "pleadings",
+      "client_interview"
+    ],
+    "commercial_case": [
+      "commercial_law",
+      "companies_law",
+      "risk",
+      "defense",
+      "judicial_memory",
+      "judgment_analysis",
+      "pleadings",
+      "contracts",
+      "client_interview"
+    ],
+    "labor_case": [
+      "labor_law",
+      "social_insurance_law",
+      "risk",
+      "defense",
+      "judicial_memory",
+      "judgment_analysis",
+      "pleadings",
+      "client_interview"
+    ]
   }
 }
