@@ -1,0 +1,8 @@
+{
+  "id": "criminal_law_index",
+  "title": "محرك القانون الجنائي",
+  "parts": {
+    "general_part": "engines/criminal_law/general_part.json",
+    "special_criminal_laws": "engines/criminal_law/special_criminal_laws.json"
+  }
+}
