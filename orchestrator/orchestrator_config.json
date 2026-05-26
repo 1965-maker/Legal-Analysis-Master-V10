@@ -1,6 +1,8 @@
 {
   "engines": {
-    "criminal_law": {},
+    "criminal_law": {
+      "special_criminal_laws": "engines/criminal_law/special_criminal_laws.json"
+},
     "civil_law": {},
     "personal_status": {},
     "tax_law": {},
