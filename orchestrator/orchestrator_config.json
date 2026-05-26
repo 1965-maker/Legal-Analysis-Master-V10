@@ -1,126 +1,68 @@
 {
-  "version": "1.0",
-  "description": "MASTER V10 Orchestrator Config - Hybrid Legal Engine Architecture",
-
-  "engines": {
-    "criminal_law": {
-      "index": "engines/criminal_law/criminal_law_index.json"
+  "engines": [
+    {
+      "id": "criminal_law_index",
+      "folder": "engines/criminal_law"
     },
-    "civil_law": {
-      "index": "engines/civil_law/civil_law_index.json"
+    {
+      "id": "civil_law_index",
+      "folder": "engines/civil_law"
     },
-    "personal_status": {
-      "index": "engines/personal_status/personal_status_index.json"
+    {
+      "id": "personal_status_index",
+      "folder": "engines/personal_status"
     },
-    "tax_law": {
-      "index": "engines/tax_law/tax_law_index.json"
+    {
+      "id": "tax_law_index",
+      "folder": "engines/tax_law"
     },
-    "commercial_law": {
-      "index": "engines/commercial_law/commercial_law_index.json"
+    {
+      "id": "commercial_law_index",
+      "folder": "engines/commercial_law"
     },
-    "companies_law": {
-      "index": "engines/companies_law/companies_law_index.json"
+    {
+      "id": "companies_law_index",
+      "folder": "engines/companies_law"
     },
-    "labor_law": {
-      "index": "engines/labor_law/labor_law_index.json"
+    {
+      "id": "labor_law_index",
+      "folder": "engines/labor_law"
     },
-    "social_insurance_law": {
-      "index": "engines/social_insurance_law/social_insurance_law_index.json"
+    {
+      "id": "social_insurance_law_index",
+      "folder": "engines/social_insurance_law"
     },
-    "economic_law": {
-      "index": "engines/economic_law/economic_law_index.json"
+    {
+      "id": "economic_court_index",
+      "folder": "engines/economic_court"
     },
-
-    "contracts": {
-      "index": "engines/contracts/contracts_index.json"
+    {
+      "id": "contracts_index",
+      "folder": "engines/contracts"
     },
-    "pleadings": {
-      "index": "engines/pleadings/pleadings_index.json"
+    {
+      "id": "pleadings_index",
+      "folder": "engines/pleadings"
     },
-    "risk": {
-      "index": "engines/risk/risk_index.json"
+    {
+      "id": "defense_index",
+      "folder": "engines/defense"
     },
-    "defense": {
-      "index": "engines/defense/defense_index.json"
+    {
+      "id": "risk_index",
+      "folder": "engines/risk"
     },
-    "judicial_memory": {
-      "index": "engines/judicial_memory/judicial_memory_index.json"
+    {
+      "id": "judicial_memory_index",
+      "folder": "engines/judicial_memory"
     },
-    "judgment_analysis": {
-      "index": "engines/judgment_analysis/judgment_analysis_index.json"
+    {
+      "id": "judgment_analysis_index",
+      "folder": "engines/judgment_analysis"
     },
-    "client_interview": {
-      "index": "engines/client_interview/client_interview_index.json"
+    {
+      "id": "client_interview_index",
+      "folder": "engines/client_interview"
     }
-  },
-
-  "contexts": {
-    "criminal_case": [
-      "criminal_law",
-      "risk",
-      "defense",
-      "judicial_memory",
-      "judgment_analysis",
-      "pleadings",
-      "client_interview"
-    ],
-    "civil_case": [
-      "civil_law",
-      "risk",
-      "defense",
-      "judicial_memory",
-      "judgment_analysis",
-      "pleadings",
-      "contracts",
-      "client_interview"
-    ],
-    "personal_status_case": [
-      "personal_status",
-      "risk",
-      "defense",
-      "judicial_memory",
-      "judgment_analysis",
-      "pleadings",
-      "client_interview"
-    ],
-    "tax_case": [
-      "tax_law",
-      "risk",
-      "defense",
-      "judicial_memory",
-      "judgment_analysis",
-      "pleadings",
-      "client_interview"
-    ],
-    "economic_case": [
-      "economic_law",
-      "risk",
-      "defense",
-      "judicial_memory",
-      "judgment_analysis",
-      "pleadings",
-      "client_interview"
-    ],
-    "commercial_case": [
-      "commercial_law",
-      "companies_law",
-      "risk",
-      "defense",
-      "judicial_memory",
-      "judgment_analysis",
-      "pleadings",
-      "contracts",
-      "client_interview"
-    ],
-    "labor_case": [
-      "labor_law",
-      "social_insurance_law",
-      "risk",
-      "defense",
-      "judicial_memory",
-      "judgment_analysis",
-      "pleadings",
-      "client_interview"
-    ]
-  }
+  ]
 }
