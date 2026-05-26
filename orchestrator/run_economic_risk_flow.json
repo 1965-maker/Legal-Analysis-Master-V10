@@ -1,0 +1,46 @@
+{
+  "scenario_id": "run_economic_risk_flow",
+  "description": "تشغيل مسار القضايا الاقتصادية من مقابلة العميل إلى تقييم المخاطر ثم الذاكرة القضائية",
+  "entry_engine": {
+    "id": "client_interview_index",
+    "folder": "engines/client_interview"
+  },
+  "flow": [
+    {
+      "step": "initial_intake",
+      "engine": {
+        "id": "client_interview_index",
+        "folder": "engines/client_interview"
+      },
+      "output": "structured_case_data"
+    },
+    {
+      "step": "economic_analysis",
+      "engine": {
+        "id": "economic_court_index",
+        "folder": "engines/economic_court"
+      },
+      "input": "structured_case_data",
+      "output": "economic_case_profile"
+    },
+    {
+      "step": "risk_assessment",
+      "engine": {
+        "id": "risk_index",
+        "folder": "engines/risk"
+      },
+      "input": "economic_case_profile",
+      "output": "risk_report"
+    },
+    {
+      "step": "judicial_memory_update",
+      "engine": {
+        "id": "judicial_memory_index",
+        "folder": "engines/judicial_memory"
+      },
+      "input": "risk_report",
+      "output": "memory_entry"
+    }
+  ],
+  "status": "draft"
+}
