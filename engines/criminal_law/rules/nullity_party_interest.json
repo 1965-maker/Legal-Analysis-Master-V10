@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "engine": "criminal_law",
+    "category": "nullity_party_interest",
+    "version": "1.0",
+    "last_updated": "2026-05-27",
+    "description": "Party-interest nullity rules for MASTER V10"
+  },
+  "rules": [
+
+    {
+      "id": "C-NULL-PARTY-001",
+      "title": "سقوط الدفع ببطلان الاستجواب لحضور المحامي دون اعتراض",
+      "type_of_nullity": "party_interest",
+      "text": "إذا تم استجواب المتهم بحضور محاميه دون اعتراض، يسقط الحق في الدفع بالبطلان لأنه من قبيل البطلان المتعلق بمصلحة الخصوم.",
+      "legal_basis": [
+        "مادة 335 إجراءات: يسقط الحق في الدفع بالبطلان إذا كان للمتهم محامٍ وحصل الإجراء بحضوره دون اعتراض.",
+        "قضاء النقض: حضور المحامي دون اعتراض يسقط البطلان."
+      ],
+      "conditions": [
+        "وجود محامٍ حاضر أثناء الاستجواب.",
+        "عدم اعتراض المحامي على الإجراء."
+      ],
+      "effects": [
+        "يسقط الحق في الدفع بالبطلان.",
+        "لا يجوز إثارته أمام أي درجة من درجات التقاضي."
+      ],
+      "practice_note": "يجب على المحامي التمسك بالبطلان فور وقوع الإجراء وإلا سقط حقه طبقًا للمادة 335.",
+      "court_raises_ex_officio": false,
+      "can_be_raised_any_time": false,
+      "requires_objection_in_time": true,
+      "falls_by_silence_or_presence": true
+    },
+
+    {
+      "id": "C-NULL-PARTY-002",
+      "title": "سقوط الدفع ببطلان مناقشة الطبيب الشرعي",
+      "type_of_nullity": "party_interest",
+      "text": "إذا تمت مناقشة الطبيب الشرعي بحضور المتهم ومحاميه دون اعتراض، يسقط الحق في الدفع بالبطلان.",
+      "legal_basis": [
+        "قضاء النقض: عدم اعتراض الدفاع أثناء مناقشة الطبيب الشرعي يسقط البطلان.",
+        "مادة 335 إجراءات."
+      ],
+      "conditions": [
+        "حضور المتهم أو محاميه.",
+        "عدم الاعتراض أثناء المناقشة."
+      ],
+      "effects": [
+        "يسقط الحق في الدفع بالبطلان.",
+        "لا يجوز إثارته لاحقًا."
+      ],
+      "practice_note": "يجب على المحامي الاعتراض فورًا إذا رأى بطلانًا في إجراءات مناقشة الخبير.",
+      "court_raises_ex_officio": false,
+      "can_be_raised_any_time": false,
+      "requires_objection_in_time": true,
+      "falls_by_silence_or_presence": true
+    },
+
+    {
+      "id": "C-NULL-PARTY-003",
+      "title": "عدم بطلان تغيير الوصف إذا دارت المناقشة حول العناصر الجديدة",
+      "type_of_nullity": "party_interest",
+      "text": "لا يبطل الحكم إذا عدلت المحكمة وصف التهمة طالما دارت المناقشة حول العناصر الجديدة، حتى لو لم يتم التنبيه صراحة.",
+      "legal_basis": [
+        "قضاء النقض: يكفي لضمان الدفاع أن تدور المناقشة حول العناصر الجديدة.",
+        "مادة 335 إجراءات."
+      ],
+      "conditions": [
+        "وجود مناقشة حول العناصر الجديدة.",
+        "عدم اعتراض الدفاع أثناء الجلسة."
+      ],
+      "effects": [
+        "لا بطلان.",
+        "يسقط الحق في الدفع إذا لم يعترض الدفاع."
+      ],
+      "practice_note": "على المحامي الاعتراض فورًا إذا لم يتم تنبيهه بتعديل الوصف.",
+      "court_raises_ex_officio": false,
+      "can_be_raised_any_time": false,
+      "requires_objection_in_time": true,
+      "falls_by_silence_or_presence": true
+    },
+
+    {
+      "id": "C-NULL-PARTY-004",
+      "title": "سقوط الدفع ببطلان ورقة التكليف بالحضور",
+      "type_of_nullity": "party_interest",
+      "text": "إذا حضر المتهم بنفسه أو بوكيل عنه، يسقط حقه في الدفع ببطلان ورقة التكليف بالحضور.",
+      "legal_basis": [
+        "مادة 336 إجراءات: حضور المتهم يسقط الدفع ببطلان التكليف بالحضور."
+      ],
+      "conditions": [
+        "حضور المتهم أو وكيله.",
+        "عدم طلب مهلة لتحضير الدفاع."
+      ],
+      "effects": [
+        "يسقط الدفع بالبطلان.",
+        "يقتصر حق المتهم على طلب مهلة فقط."
+      ],
+      "practice_note": "على المحامي طلب مهلة فورًا إذا كان التكليف باطلًا.",
+      "court_raises_ex_officio": false,
+      "can_be_raised_any_time": false,
+      "requires_objection_in_time": true,
+      "falls_by_silence_or_presence": true
+    },
+
+    {
+      "id": "C-NULL-PARTY-005",
+      "title": "سقوط الدفع ببطلان إجراءات التحقيق الابتدائي",
+      "type_of_nullity": "party_interest",
+      "text": "يسقط الحق في الدفع ببطلان إجراءات التحقيق الابتدائي إذا لم يتمسك به المتهم أو محاميه في حينه.",
+      "legal_basis": [
+        "مادة 335 إجراءات.",
+        "قضاء النقض: السكوت عن بطلان التحقيق يسقط الحق في التمسك به."
+      ],
+      "conditions": [
+        "حضور المحامي أثناء التحقيق.",
+        "عدم الاعتراض في حينه."
+      ],
+      "effects": [
+        "يسقط الدفع بالبطلان.",
+        "لا يجوز إثارته لاحقًا."
+      ],
+      "practice_note": "يجب على المحامي الاعتراض فورًا على أي بطلان في التحقيق.",
+      "court_raises_ex_officio": false,
+      "can_be_raised_any_time": false,
+      "requires_objection_in_time": true,
+      "falls_by_silence_or_presence": true
+    },
+
+    {
+      "id": "C-NULL-PARTY-006",
+      "title": "سقوط الدفع ببطلان إعلان الشهود أو الخصوم",
+      "type_of_nullity": "party_interest",
+      "text": "يسقط الدفع ببطلان إعلان الشهود أو الخصوم إذا حضر الخصم أو لم يعترض في حينه.",
+      "legal_basis": [
+        "قضاء النقض: حضور الخصم يسقط الدفع ببطلان الإعلان.",
+        "مادة 335 إجراءات."
+      ],
+      "conditions": [
+        "حضور الخصم.",
+        "عدم الاعتراض أثناء الجلسة."
+      ],
+      "effects": [
+        "يسقط الدفع بالبطلان.",
+        "لا يجوز إثارته لاحقًا."
+      ],
+      "practice_note": "على المحامي الاعتراض فورًا على بطلان الإعلان.",
+      "court_raises_ex_officio": false,
+      "can_be_raised_any_time": false,
+      "requires_objection_in_time": true,
+      "falls_by_silence_or_presence": true
+    },
+
+    {
+      "id": "C-NULL-PARTY-007",
+      "title": "عدم بطلان الإجراءات غير الجوهرية",
+      "type_of_nullity": "party_interest",
+      "text": "الإجراءات الشكلية أو الإرشادية التي لا تمس ضمانات الدفاع لا يترتب على مخالفتها بطلان، ويسقط أي دفع بها بعدم الاعتراض.",
+      "legal_basis": [
+        "قضاء النقض: عدم توقيع كاتب الجلسة، ترتيب الإجراءات، تحريز المضبوطات… لا يترتب عليها بطلان."
+      ],
+      "conditions": [
+        "أن تكون المخالفة شكلية غير جوهرية.",
+        "عدم اعتراض الدفاع."
+      ],
+      "effects": [
+        "لا بطلان.",
+        "يسقط أي دفع بعدم الاعتراض."
+      ],
+      "practice_note": "على المحامي التفرقة بين الإجراء الجوهري وغير الجوهري.",
+      "court_raises_ex_officio": false,
+      "can_be_raised_any_time": false,
+      "requires_objection_in_time": true,
+      "falls_by_silence_or_presence": true
+    }
+
+  ]
+}
