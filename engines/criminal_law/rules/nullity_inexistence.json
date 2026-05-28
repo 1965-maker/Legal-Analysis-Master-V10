@@ -1,0 +1,162 @@
+{
+  "metadata": {
+    "engine": "criminal_law",
+    "category": "nullity_inexistence",
+    "version": "1.0",
+    "last_updated": "2026-05-27",
+    "description": "Inexistence rules for MASTER V10"
+  },
+  "rules": [
+
+    {
+      "id": "C-NULL-INEXIST-001",
+      "title": "انعدام الحكم لقيام القاضي بوظيفة النيابة في ذات الدعوى",
+      "type_of_nullity": "inexistence",
+      "text": "إذا قام القاضي بأي عمل من أعمال النيابة العامة في ذات الدعوى ثم نظرها، فإن الحكم الصادر عنه يعد منعدماً لانتفاء الحياد القضائي.",
+      "legal_basis": [
+        "قضاء النقض: قيام القاضي بوظيفة النيابة ثم نظر الدعوى يؤدي إلى انعدام الحكم.",
+        "الشرح: الانعدام هو عدم وجود العمل القانوني أصلاً."
+      ],
+      "conditions": [
+        "قيام القاضي بعمل من أعمال الاتهام أو التحقيق.",
+        "نظر القاضي ذات الدعوى لاحقاً."
+      ],
+      "effects": [
+        "الحكم منعدم ولا ينتج أي أثر.",
+        "لا يحتاج إلى طعن لإهداره.",
+        "تقضي به المحكمة من تلقاء نفسها."
+      ],
+      "court_raises_ex_officio": true,
+      "can_be_raised_any_time": true,
+      "requires_objection_in_time": false,
+      "falls_by_silence_or_presence": false,
+      "cannot_be_cured": true
+    },
+
+    {
+      "id": "C-NULL-INEXIST-002",
+      "title": "انعدام تشكيل محكمة الجنايات",
+      "type_of_nullity": "inexistence",
+      "text": "تشكيل محكمة الجنايات بغير ثلاثة قضاة يؤدي إلى انعدام المحكمة وانعدام الحكم الصادر عنها.",
+      "legal_basis": [
+        "مادة 366 إجراءات جنائية.",
+        "قضاء النقض: التشكيل المخالف ينحدر إلى الانعدام."
+      ],
+      "conditions": [
+        "نقص عدد القضاة عن ثلاثة.",
+        "صدور حكم من تشكيل غير صحيح."
+      ],
+      "effects": [
+        "الحكم منعدم.",
+        "لا ينتج أي أثر.",
+        "لا يحتاج إلى طعن لإهداره."
+      ],
+      "court_raises_ex_officio": true,
+      "can_be_raised_any_time": true,
+      "requires_objection_in_time": false,
+      "falls_by_silence_or_presence": false,
+      "cannot_be_cured": true
+    },
+
+    {
+      "id": "C-NULL-INEXIST-003",
+      "title": "انعدام الحكم لعدم سماع المرافعة",
+      "type_of_nullity": "inexistence",
+      "text": "الحكم الصادر من قاضٍ لم يسمع المرافعة يعد منعدماً لافتقاده شرطاً جوهرياً من شروط وجود الحكم.",
+      "legal_basis": [
+        "قضاء النقض: الحكم الصادر من قاضٍ لم يسمع المرافعة منعدم.",
+        "الشرح: الانعدام يختلف عن البطلان لأنه يمس وجود الإجراء ذاته."
+      ],
+      "conditions": [
+        "تغيير القاضي بعد سماع المرافعة.",
+        "صدور الحكم من قاضٍ لم يحضر جلسات المرافعة."
+      ],
+      "effects": [
+        "الحكم منعدم.",
+        "لا يحتاج إلى طعن.",
+        "تقضي به المحكمة من تلقاء نفسها."
+      ],
+      "court_raises_ex_officio": true,
+      "can_be_raised_any_time": true,
+      "requires_objection_in_time": false,
+      "falls_by_silence_or_presence": false,
+      "cannot_be_cured": true
+    },
+
+    {
+      "id": "C-NULL-INEXIST-004",
+      "title": "انعدام الإذن الصادر من شخص لا ولاية له",
+      "type_of_nullity": "inexistence",
+      "text": "الإذن الصادر من شخص لا ولاية له قانوناً يعد منعدماً ولا يرتب أي أثر.",
+      "legal_basis": [
+        "الشرح: الانعدام يتحقق عند تخلف مصدر الإجراء القانوني.",
+        "قضاء النقض: الإذن الصادر من غير ذي صفة لا وجود له قانوناً."
+      ],
+      "conditions": [
+        "صدور الإذن من شخص لا يملك سلطة إصدار الإذن.",
+        "عدم وجود تفويض قانوني."
+      ],
+      "effects": [
+        "الإذن منعدم.",
+        "كل ما ترتب عليه من إجراءات منعدمة.",
+        "لا يحتاج إلى طعن لإهداره."
+      ],
+      "court_raises_ex_officio": true,
+      "can_be_raised_any_time": true,
+      "requires_objection_in_time": false,
+      "falls_by_silence_or_presence": false,
+      "cannot_be_cured": true
+    },
+
+    {
+      "id": "C-NULL-INEXIST-005",
+      "title": "انعدام الإجراءات الصادرة من جهة لا ولاية لها",
+      "type_of_nullity": "inexistence",
+      "text": "كل إجراء يصدر من جهة لا ولاية لها قانوناً يعد منعدماً ولا يرتب أثراً.",
+      "legal_basis": [
+        "الشرح: الانعدام يتحقق عند تخلف الولاية القانونية.",
+        "قضاء النقض: الإجراء الصادر من غير ذي ولاية منعدم."
+      ],
+      "conditions": [
+        "صدور الإجراء من جهة غير مختصة وظيفياً.",
+        "عدم وجود سند قانوني للولاية."
+      ],
+      "effects": [
+        "الإجراء منعدم.",
+        "لا ينتج أي أثر.",
+        "تقضي به المحكمة من تلقاء نفسها."
+      ],
+      "court_raises_ex_officio": true,
+      "can_be_raised_any_time": true,
+      "requires_objection_in_time": false,
+      "falls_by_silence_or_presence": false,
+      "cannot_be_cured": true
+    },
+
+    {
+      "id": "C-NULL-INEXIST-006",
+      "title": "انعدام الإجراء لغياب السند القانوني بالكامل",
+      "type_of_nullity": "inexistence",
+      "text": "إذا تم إجراء دون أي سند قانوني أو خارج أي إطار تشريعي، يعد الإجراء منعدماً لانتفاء وجوده القانوني.",
+      "legal_basis": [
+        "الشرح: الانعدام يتحقق عند غياب الأساس القانوني للإجراء.",
+        "فقه الإجراءات الجنائية."
+      ],
+      "conditions": [
+        "عدم وجود نص قانوني يجيز الإجراء.",
+        "عدم وجود إذن أو حالة تلبس أو سبب قانوني."
+      ],
+      "effects": [
+        "الإجراء منعدم.",
+        "لا ينتج أي أثر.",
+        "تقضي به المحكمة من تلقاء نفسها."
+      ],
+      "court_raises_ex_officio": true,
+      "can_be_raised_any_time": true,
+      "requires_objection_in_time": false,
+      "falls_by_silence_or_presence": false,
+      "cannot_be_cured": true
+    }
+
+  ]
+}
