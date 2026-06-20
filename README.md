@@ -45,3 +45,27 @@ Analytical Layer: Applies multi-domain logic (Criminal/Civil/Arb).
 Nullity Engine (The Core): Validates procedures against statutory and jurisprudential rules.
 
 Execution Layer: Generates defense strategies, reports, and risk assessments.
+---
+
+## 🌲 خريطة الجذور والفروع لنظام MASTER V10 (Architecture Tree)
+
+```mermaid
+graph TD
+    %% الجذور الحقيقية للمستودع
+    Root[Legal-Analysis-Master-V10] --> Cases[Cases/criminal / ملفات القضايا الجنائية]
+    Root --> Models[Models / النماذج الذكية]
+    Root --> Docs[docs / وثائق النظام]
+    Root --> Engines[engines / المحركات التخصصية]
+    Root --> Orch[orchestrator / المنسق العام]
+    Root --> Src[src / المحرك البرمجي الرئيسي]
+
+    %% تفريع ملف src الفعلي
+    Src --> Agents[agents / الوكلاء الذكور]
+    Src --> Core[core / النواة البرمجية]
+    Src --> DomCriminal[domains/criminal / التكييف الجنائي]
+    Src --> Inter[interfaces / الواجهات]
+    Src --> Know[knowledge / قاعدة المعرفة والقاموس]
+    Src --> Main[main.py / ملف التشغيل]
+
+    %% اقتراح المجلد الجديد تحت قاعدة المعرفة
+    Know --> Jurisprudence[jurisprudence / مستودع أحكام النقض الجديد]
