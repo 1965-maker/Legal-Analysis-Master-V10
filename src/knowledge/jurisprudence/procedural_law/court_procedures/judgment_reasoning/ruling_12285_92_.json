@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "case_number": "12285",
+    "case_year": "92 ق",
+    "session_date": "16 / 07 / 2023",
+    "technical_office_year": "74 ق",
+    "court_judicial_year": "52 قضائية",
+    "page": "555"
+  },
+  "search_tags": [
+    "هتك عرض طفل",
+    "الخطأ في تطبيق القانون",
+    "النزول بالعقوبة"
+  ],
+  "court_correction_output": {
+    "final_decision": "تصحيح العقوبة المقضي بها بجعلها الحبس مع الشغل لمدة ثلاث سنوات بدلاً من أربع سنوات.",
+    "legal_reason_for_correction": "مخالفة الحد الأقصى للحبس العام المنصوص عليه بالمادة 18 عقوبات."
+  },
+  "abstract_legal_principles": [
+    {
+      "id": 1,
+      "subject": "ماهية التناقض المبطل للحكم الجنائي",
+      "text": "من المقرر أن التناقض الذي يعيب الحكم ويبطله هو الذي يقع بين أسبابه بحيث ينفي بعضها ما أثبته البعض الآخر ولا يُعرف أي الأمرين قصدته المحكمة.",
+      "target_folder": "procedural_law/court_procedures/judgment_reasoning"
+    }
+  ]
+}
