@@ -1,0 +1,53 @@
+{
+    "system_name": "MASTER V10",
+    "version": "1.0.0",
+    "environment": "Google Colab & GitHub Integration",
+    "repository_url": "https://github.com/1965-maker/Legal-Analysis-Master-V10",
+    "routing_paths": {
+        "criminal": {
+            "jurisprudence": "knowledge/criminal/jurisprudence",
+            "drafting": "knowledge/criminal/drafting_pleadings"
+        },
+        "civil": {
+            "jurisprudence": "knowledge/civil/jurisprudence",
+            "drafting": "knowledge/civil/drafting_pleadings"
+        },
+        "personal_status": {
+            "jurisprudence": "knowledge/personal_status/jurisprudence",
+            "drafting": "knowledge/personal_status/drafting_pleadings"
+        },
+        "tax_disputes": {
+            "jurisprudence": "knowledge/tax_disputes/jurisprudence",
+            "drafting": "knowledge/tax_disputes/drafting_pleadings"
+        },
+        "economic_court": {
+            "civil_commercial": {
+                "jurisprudence": "knowledge/economic_court/civil_and_commercial/jurisprudence",
+                "drafting": "knowledge/economic_court/civil_and_commercial/drafting_pleadings",
+                "mediation": "knowledge/economic_court/civil_and_commercial/mediation_and_preparation"
+            },
+            "bankruptcy_restructuring": {
+                "restructuring": "knowledge/economic_court/bankruptcy_and_restructuring/restructuring",
+                "protective_composition": "knowledge/economic_court/bankruptcy_and_restructuring/protective_composition",
+                "bankruptcy_cases": "knowledge/economic_court/bankruptcy_and_restructuring/bankruptcy_cases",
+                "mediation": "knowledge/economic_court/bankruptcy_and_restructuring/mediation_and_preparation"
+            }
+        },
+        "contracts_management": "knowledge/contracts_management"
+    },
+    "analytics_weights": {
+        "criminal_default": {
+            "procedural": 0.4,
+            "substantive": 0.6
+        },
+        "civil_default": {
+            "contractual_liability": 0.5,
+            "damage_assessment": 0.5
+        },
+        "economic_mediation_default": {
+            "legal_strength": 0.3,
+            "financial_risk": 0.4,
+            "time_cost": 0.3
+        }
+    }
+}
